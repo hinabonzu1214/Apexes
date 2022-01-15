@@ -268,4 +268,4 @@ class Bot(discord.Client):
                     await message.channel.send("募集最大人数がオーバーしているかモードの選択がされていません。")
 
 client = Bot(intents = intents)
-client.run(getenv('token'))
+client.run(getenv('TOKEN'))
